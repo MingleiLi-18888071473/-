@@ -1,0 +1,292 @@
+[2023-11-04 11:57:27]	compilation failed at : "d:\Projects\rfid_code1.1\rfid_code1.1\rfid_code\hardware\rfid card\Card.c", exit code: 1
+command: 
+  "C:\Users\xuyib\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -mthumb -std=c11 -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../hardware/KEY -I../hardware/LED -I../hardware/USART -I../hardware/ADC -I../hardware/PWM -I../hardware/TIM -I"../hardware/rfid card" -I.cmsis/include -IRTE/_rfid_code -I.eide/deps -DUSE_HAL_DRIVER -DSTM32F103x6 -mcpu=cortex-m3 -Og -Wall -g --specs=nosys.specs --specs=nano.specs -ffunction-sections -fdata-sections -o "./build/rfid_code/__/hardware/rfid card/Card.o" -MMD "./../hardware/rfid card/Card.c"
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+In file included from ./../Core/Src/main.c:36:
+../Core/Inc/Message.h:43:27: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                           ^
+../Core/Inc/Message.h:43:36: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                    ^~~~
+../Core/Inc/Message.h:43:35: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                   ^
+../Core/Inc/Message.h:43:41: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                         ^
+../Core/Inc/Message.h:43:53: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                     ^
+../Core/Inc/Message.h:43:62: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                              ^
+../Core/Inc/Message.h:43:69: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                     ^
+../Core/Inc/Message.h:43:79: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                               ^~~~~~~~~~~
+../Core/Inc/Message.h:43:78: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                              ^
+../Core/Inc/Message.h:43:92: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                            ^~~~~~
+../Core/Inc/Message.h:43:91: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                           ^
+../Core/Inc/Message.h:43:100: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                    ^~~~~~~~~~
+../Core/Inc/Message.h:43:99: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                   ^
+../Core/Inc/Message.h:43:111: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                               ^
+../Core/Inc/Message.h:43:120: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                        ^
+In file included from ./../Core/Src/main.c:36:
+../Core/Inc/Message.h:43:129: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                 ^
+../Core/Inc/Message.h:43:137: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                         ^~~~~~~
+../Core/Inc/Message.h:43:136: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                        ^
+../Core/Inc/Message.h:43:146: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                  ^~~~~~~
+../Core/Inc/Message.h:43:145: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                 ^
+../Core/Inc/Message.h:43:155: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                           ^~~~~~~~
+../Core/Inc/Message.h:43:154: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                          ^
+../Core/Inc/Message.h:43:164: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                                    ^
+../Core/Inc/Message.h: In function 'MessageDisplaySet':
+../Core/Inc/Message.h:59:12: error: invalid type argument of unary '*' (have 'int')
+   59 |         if(*(Message_buf[i]) == Message)
+      |            ^~~~~~~~~~~~~~~~~
+../Core/Inc/Message.h:59:30: warning: comparison between pointer and integer
+   59 |         if(*(Message_buf[i]) == Message)
+      |                              ^~
+../Core/Inc/Message.h: In function 'MessageGet':
+../Core/Inc/Message.h:84:48: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+   84 |         temp_Message = temp_Message << 8*count + data;
+      |                                        ~~~~~~~~^~~~~~
+./../Core/Src/main.c: In function 'main':
+./../Core/Src/main.c:191:18: warning: passing argument 1 of 'MessageGet' makes integer from pointer without a cast [-Wint-conversion]
+  191 |       MessageGet(NULL);
+      |                  ^~~~
+      |                  |
+      |                  void *
+In file included from ./../Core/Src/main.c:36:
+../Core/Inc/Message.h:78:33: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'void *'
+   78 | unsigned int MessageGet(uint8_t data)
+      |                         ~~~~~~~~^~~~
+./../Core/Src/main.c:204:18: warning: passing argument 1 of 'MessageGet' makes integer from pointer without a cast [-Wint-conversion]
+  204 |       MessageGet(NULL);
+      |                  ^~~~
+      |                  |
+      |                  void *
+In file included from ./../Core/Src/main.c:36:
+../Core/Inc/Message.h:78:33: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'void *'
+   78 | unsigned int MessageGet(uint8_t data)
+      |                         ~~~~~~~~^~~~
+../Core/Inc/Message.h: In function 'MessageDisplaySet':
+../Core/Inc/Message.h:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+   77 | }
+      | ^
+../Core/Inc/Message.h: In function 'MessageGet':
+../Core/Inc/Message.h:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+   98 | }
+      | ^
+In file included from ./../hardware/rfid card/Card.c:13:
+../Core/Inc/Message.h:43:27: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                           ^
+../Core/Inc/Message.h:43:36: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                    ^~~~
+../Core/Inc/Message.h:43:35: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                   ^
+../Core/Inc/Message.h:43:41: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                         ^
+../Core/Inc/Message.h:43:53: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                     ^
+../Core/Inc/Message.h:43:62: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                              ^
+../Core/Inc/Message.h:43:69: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                     ^
+../Core/Inc/Message.h:43:79: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                               ^~~~~~~~~~~
+../Core/Inc/Message.h:43:78: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                              ^
+../Core/Inc/Message.h:43:92: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                            ^~~~~~
+../Core/Inc/Message.h:43:91: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                           ^
+../Core/Inc/Message.h:43:100: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                    ^~~~~~~~~~
+../Core/Inc/Message.h:43:99: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                   ^
+../Core/Inc/Message.h:43:111: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                               ^
+../Core/Inc/Message.h:43:120: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                        ^
+In file included from ./../hardware/rfid card/Card.c:13:
+../Core/Inc/Message.h:43:129: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                 ^
+../Core/Inc/Message.h:43:137: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                         ^~~~~~~
+../Core/Inc/Message.h:43:136: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                        ^
+../Core/Inc/Message.h:43:146: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                  ^~~~~~~
+../Core/Inc/Message.h:43:145: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                 ^
+../Core/Inc/Message.h:43:155: warning: integer constant is too large for its type
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                           ^~~~~~~~
+../Core/Inc/Message.h:43:154: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                          ^
+../Core/Inc/Message.h:43:164: error: invalid type argument of unary '*' (have 'unsigned int')
+   43 | uint16_t Message_buf[] = {*RUIJIN,*TUPO,*XIANGJIANG,*WUJIANG,*ZUIYI,*CHISHUI,*JINSHAJIANG,*DADUHE,*LUDINGQIAO,*XUESHAN,*MAOGONG,*CAODI,*LAZIKOU,*HUINING,*WUQIZHEN,*YANAN};
+      |                                                                                                                                                                    ^
+../Core/Inc/Message.h: In function 'MessageDisplaySet':
+../Core/Inc/Message.h:59:12: error: invalid type argument of unary '*' (have 'int')
+   59 |         if(*(Message_buf[i]) == Message)
+      |            ^~~~~~~~~~~~~~~~~
+../Core/Inc/Message.h:59:30: warning: comparison between pointer and integer
+   59 |         if(*(Message_buf[i]) == Message)
+      |                              ^~
+../Core/Inc/Message.h: In function 'MessageGet':
+../Core/Inc/Message.h:84:48: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
+   84 |         temp_Message = temp_Message << 8*count + data;
+      |                                        ~~~~~~~~^~~~~~
+./../hardware/rfid card/Card.c: In function 'UartReceiveCommand':
+./../hardware/rfid card/Card.c:377:30: warning: unused variable 'j' [-Wunused-variable]
+  377 |  static unsigned char i = 0, j;
+      |                              ^
+In file included from ./../hardware/rfid card/Card.c:13:
+../Core/Inc/Message.h: In function 'MessageDisplaySet':
+../Core/Inc/Message.h:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+   77 | }
+      | ^
+../Core/Inc/Message.h: In function 'MessageGet':
+../Core/Inc/Message.h:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+   98 | }
+      | ^
+At top level:
+./../hardware/rfid card/Card.c:377:30: warning: 'j' defined but not used [-Wunused-variable]
+  377 |  static unsigned char i = 0, j;
+      |                              ^
+
+[2023-11-04 12:33:23]	compilation failed at : "d:\Projects\rfid_code1.1\rfid_code1.1\rfid_code\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\xuyib\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -mthumb -std=c11 -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../hardware/KEY -I../hardware/LED -I../hardware/USART -I../hardware/ADC -I../hardware/PWM -I../hardware/TIM -I"../hardware/rfid card" -I.cmsis/include -IRTE/_rfid_code -I.eide/deps -DUSE_HAL_DRIVER -DSTM32F103x6 -mcpu=cortex-m3 -Og -Wall -g --specs=nosys.specs --specs=nano.specs -ffunction-sections -fdata-sections -o ./build/rfid_code/__/Core/Src/main.o -MMD ./../Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+In file included from ./../Core/Src/main.c:36:
+../Core/Inc/Message.h:42:1: warning: braces around scalar initializer
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      | ^~~~~~~~
+../Core/Inc/Message.h:42:1: note: (near initialization for 'Message_buf[0]')
+../Core/Inc/Message.h:6:22: warning: excess elements in scalar initializer
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                      ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:22: note: (near initialization for 'Message_buf[0]')
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                      ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:27: warning: excess elements in scalar initializer
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                           ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:27: note: (near initialization for 'Message_buf[0]')
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                           ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:32: warning: excess elements in scalar initializer
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                                ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:32: note: (near initialization for 'Message_buf[0]')
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                                ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:37: warning: excess elements in scalar initializer
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                                     ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:37: note: (near initialization for 'Message_buf[0]')
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                                     ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:42:36: error: expected '}' before '[' token
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                             ~      ^
+In file included from ./../Core/Src/main.c:36:
+../Core/Inc/Message.h: In function 'MessageDisplaySet':
+../Core/Inc/Message.h:72:13: warning: unused variable 'i' [-Wunused-variable]
+   72 |     uint8_t i;
+      |             ^
+../Core/Inc/Message.h: In function 'MessageGet':
+../Core/Inc/Message.h:92:12: error: invalid type argument of unary '*' (have 'int')
+   92 |         if(*(Message_buf[count]) == data[0])
+      |            ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/Message.h:92:34: warning: comparison between pointer and integer
+   92 |         if(*(Message_buf[count]) == data[0])
+      |                                  ^~
+../Core/Inc/Message.h:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+

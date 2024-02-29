@@ -1,0 +1,76 @@
+>>> cc
+
+In file included from ./../Core/Src/main.c:36:
+../Core/Inc/Message.h:42:1: warning: braces around scalar initializer
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      | ^~~~~~~~
+../Core/Inc/Message.h:42:1: note: (near initialization for 'Message_buf[0]')
+../Core/Inc/Message.h:6:22: warning: excess elements in scalar initializer
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                      ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:22: note: (near initialization for 'Message_buf[0]')
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                      ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:27: warning: excess elements in scalar initializer
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                           ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:27: note: (near initialization for 'Message_buf[0]')
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                           ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:32: warning: excess elements in scalar initializer
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                                ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:32: note: (near initialization for 'Message_buf[0]')
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                                ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:37: warning: excess elements in scalar initializer
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                                     ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:6:37: note: (near initialization for 'Message_buf[0]')
+    6 | #define RUIJIN {0xC8,0xF0,0xBD,0xF0,0x0A}
+      |                                     ^~~~
+../Core/Inc/Message.h:42:30: note: in expansion of macro 'RUIJIN'
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                              ^~~~~~
+../Core/Inc/Message.h:42:36: error: expected '}' before '[' token
+   42 | unsigned char Message_buf[]={RUIJIN[0],TUPO[0],XIANGJIANG[0],WUJIANG[0],ZUIYI[0],CHISHUI[0],JINSHAJIANG[0],DADUHE[0],LUDINGQIAO[0],XUESHAN[0],MAOGONG[0],CAODI[0],LAZIKOU[0],HUINING[0],WUQIZHEN[0],YANAN[0]};
+      |                             ~      ^
+In file included from ./../Core/Src/main.c:36:
+../Core/Inc/Message.h: In function 'MessageDisplaySet':
+../Core/Inc/Message.h:72:13: warning: unused variable 'i' [-Wunused-variable]
+   72 |     uint8_t i;
+      |             ^
+../Core/Inc/Message.h: In function 'MessageGet':
+../Core/Inc/Message.h:92:12: error: invalid type argument of unary '*' (have 'int')
+   92 |         if(*(Message_buf[count]) == data[0])
+      |            ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/Message.h:92:34: warning: comparison between pointer and integer
+   92 |         if(*(Message_buf[count]) == data[0])
+      |                                  ^~
+../Core/Inc/Message.h:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+
+>>> ld
+
